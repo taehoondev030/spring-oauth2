@@ -43,7 +43,6 @@ public class CustomSuccessHandler extends SimpleUrlAuthenticationSuccessHandler 
         response.sendRedirect("http://localhost:3000/"); // 쿠키 발급 후 리다이렉트
     }
 
-
     private Cookie createCookie(String key, String value) {
         Cookie cookie = new Cookie(key, value);
         cookie.setMaxAge(60*60*60);
