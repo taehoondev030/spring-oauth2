@@ -1,2 +1,2 @@
-# simple-todo-list
- A simple todo-list application.
+# Spring OAuth2
+ 
